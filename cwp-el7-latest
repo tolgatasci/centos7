@@ -12,8 +12,6 @@ LANG=en_US.UTF-8
 #
 ########################################################################
 
-
-systemctl list-units 
 help() {
   echo "Usage: $0 [OPTIONS]
   -r, --restart       Restart server after install  [yes]  default: no
