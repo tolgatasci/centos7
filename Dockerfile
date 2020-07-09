@@ -13,7 +13,6 @@ VOLUME [ "/sys/fs/cgroup" ]
 WORKDIR /usr/local/src
 ADD cwp-el7-latest /usr/local/src/cwp-el7-latest
 RUN chmod +x /usr/local/src/cwp-el7-latest
-RUN sh cwp-el7-latest
 
 EXPOSE 3306 2030
 
